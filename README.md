@@ -1,7 +1,7 @@
 # School Management System (MERN Stack)
 
 ## 📌 Project Overview
-The **School Management System** is a full-stack **MERN application** that allows users to manage students, registrations, and courses efficiently. It provides CRUD operations for each entity and includes authentication using **JWT**.
+This **School Management System** is a full-stack **MERN application** that allows users to manage students, registrations, and courses efficiently. It provides CRUD operations for each entity and includes authentication using **JWT**.
 
 ## 🚀 Features
 - **User Authentication**: Secure login with **JWT authentication**.
