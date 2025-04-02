@@ -1,0 +1,62 @@
+.container1 {
+    display: flex;
+}
+
+.sidebar {
+    position: fixed;
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 300px;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.top-section .logo img {
+    width: 130px;
+    margin-top: 50px;
+}
+
+.top-section .bars {
+    display: flex;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sidebar .link {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.sidebar .link:hover {
+    background: #f18;
+    color: #000;
+    transition: all 0.5s;
+    border-radius: 6px;
+}
+
+.sidebar .active {
+    background: #f18;
+    color: #000;
+    border-radius: 6px;
+}
+
+.icon, .link-text {
+    font-size: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    z-index: 0;
+}
