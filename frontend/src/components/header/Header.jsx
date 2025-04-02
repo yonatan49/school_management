@@ -53,7 +53,7 @@ const Header = () => {
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <img src={logo} alt="jba" style={{ width: '40px', height: '40px', marginRight: '20px' }} />
           <p style={{ fontSize: '20px' }}>
-            <span style={{ color: '#ff0' }}>JORDAN </span>Beauty Academy
+            <span style={{ color: '#ff0' }}>School </span>Name
           </p>
         </div>
         <div 
